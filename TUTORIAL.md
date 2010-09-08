@@ -8,11 +8,11 @@ Simply call the following method to initialize the tracking code and make a page
 
 Options:
 
-`UA`: (REQUIRED) The UA number to track to.
-`Page`: The page to record. Default: the current URL.
-`addSlash`: Whether to prepend a slash if Page is missing one. Default: true.
-`setAllowLinker`: Whether to allow cross-domain tracking. Default: false.
-`setLocalRemoteServerMode`: Whether to track to GA as well as the local log file (for Urchin). Default: false.
+<tt>UA</tt>: (REQUIRED) The UA number to track to.
+<tt>Page</tt>: The page to record. Default: the current URL.
+<tt>addSlash</tt>: Whether to prepend a slash if Page is missing one. Default: true.
+<tt>setAllowLinker</tt>: Whether to allow cross-domain tracking. Default: false.
+<tt>setLocalRemoteServerMode</tt>: Whether to track to GA as well as the local log file (for Urchin). Default: false.
 
 ### Example
 
@@ -24,11 +24,11 @@ Call the following method at any time to record a pageview:
 
 	$.trackPageview(page, options);
 
-`Page`: The page to record. Default: the current URL.
+<tt>Page</tt>: The page to record. Default: the current URL.
 
 Options:
 
-`addSlash`: Whether to prepend a slash if Page is missing one. Default: true.
+<tt>addSlash</tt>: Whether to prepend a slash if Page is missing one. Default: true.
 
 ## Tagging links as downloads
 
@@ -38,7 +38,7 @@ Call the following method to attach `_trackPageview` methods to `<a>` elements:
 
 Options:
 
-`Prefix`: The prefix to prepend to all href values. Default: /downloads/
+<tt>Prefix</tt>: The prefix to prepend to all href values. Default: /downloads/
 
 ### Example
 
@@ -62,7 +62,7 @@ Call the following method to attach `_trackPageview` methods to `<a>` elements:
 
 Options:
 
-`Prefix`: The prefix to prepend to all href values. Default: /mailto/
+<tt>Prefix</tt>: The prefix to prepend to all href values. Default: /mailto/
 
 ### Example
 
@@ -110,8 +110,8 @@ Call the following method to track an event in GA:
 
 Other Options:
 
-`Label`
-`Value`
+<tt>Label</tt>
+<tt>Value</tt>
 
 ## Tracking Ecommerce Transactions
 
@@ -121,20 +121,20 @@ With the standard Ecommerce code in GA, first a transaction needs to be created,
 
 Options:
 
-`OrderID` The order ID to track.
-`Store` Affiliation or Store Name.
-`Total` The transaction total.
-`Tax` The tax total.
-`Shipping` Shipping amount.
-`City`
-`State` State or Province.
-`Country`
-`Items` A list of all items included in the transaction.
-	`SKU`
-	`Name`
-	`Category`
-	`Price`
-	`Quantity`
+<tt>OrderID</tt> The order ID to track.
+<tt>Store</tt> Affiliation or Store Name.
+<tt>Total</tt> The transaction total.
+<tt>Tax</tt> The tax total.
+<tt>Shipping</tt> Shipping amount.
+<tt>City</tt>
+<tt>State</tt> State or Province.
+<tt>Country</tt>
+<tt>Items</tt> A list of all items included in the transaction.
+	<tt>SKU</tt>
+	<tt>Name</tt>
+	<tt>Category</tt>
+	<tt>Price</tt>
+	<tt>Quantity</tt>
 
 ### Example
 
