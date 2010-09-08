@@ -9,9 +9,13 @@ Simply call the following method to initialize the tracking code and make a page
 Options:
 
 <tt>UA</tt>: (REQUIRED) The UA number to track to.
+
 <tt>Page</tt>: The page to record. Default: the current URL.
+
 <tt>addSlash</tt>: Whether to prepend a slash if Page is missing one. Default: true.
+
 <tt>setAllowLinker</tt>: Whether to allow cross-domain tracking. Default: false.
+
 <tt>setLocalRemoteServerMode</tt>: Whether to track to GA as well as the local log file (for Urchin). Default: false.
 
 ### Example
@@ -111,6 +115,7 @@ Call the following method to track an event in GA:
 Other Options:
 
 <tt>Label</tt>
+
 <tt>Value</tt>
 
 ## Tracking Ecommerce Transactions
@@ -122,19 +127,34 @@ With the standard Ecommerce code in GA, first a transaction needs to be created,
 Options:
 
 <tt>OrderID</tt> The order ID to track.
+
 <tt>Store</tt> Affiliation or Store Name.
+
 <tt>Total</tt> The transaction total.
+
 <tt>Tax</tt> The tax total.
+
 <tt>Shipping</tt> Shipping amount.
+
 <tt>City</tt>
+
 <tt>State</tt> State or Province.
+
 <tt>Country</tt>
+
+
 <tt>Items</tt> A list of all items included in the transaction.
-	<tt>SKU</tt>
-	<tt>Name</tt>
-	<tt>Category</tt>
-	<tt>Price</tt>
-	<tt>Quantity</tt>
+
+<tt>SKU</tt>
+
+<tt>Name</tt>
+
+<tt>Category</tt>
+
+<tt>Price</tt>
+
+<tt>Quantity</tt>
+
 
 ### Example
 

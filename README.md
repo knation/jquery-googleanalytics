@@ -33,9 +33,11 @@ The above example is perfect for most simple implementations of the tracking cod
 ## FAQ
 
 **Q:** What version of the Google Analytics tracking code does this plugin work with?
+
 **A:** The most recent asynchronous tracking code.
 
 **Q:** Can I use this plugin with other GA Async code on my webpages?
+
 **A:** Yes, this is completely compatible with other async code already on your site. Here's an example:
 
 	<script type="text/javascript" src="jquery.googleanalytics.min.js"></script>
